@@ -30,7 +30,13 @@ python src/intelligent_lod_converter.py
 python src/comparison_r2rml.py
 ```
 
-Run the commands from the repository root because the academic scripts use relative paths. Generated RDF and text reports are ignored by Git.
+Run the commands from the repository root because the academic scripts use relative paths. On a Windows console using a legacy code page, enable UTF-8 before running the scripts because their educational output contains Unicode symbols:
+
+```powershell
+$env:PYTHONUTF8 = "1"
+```
+
+Generated RDF and text reports are ignored by Git.
 
 ## Authors
 
