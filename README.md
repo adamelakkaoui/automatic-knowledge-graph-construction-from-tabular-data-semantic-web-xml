@@ -42,3 +42,11 @@ The example is synthetic and contains only ten rows. Relation rules and DBpedia 
 - Mohammed Zaidouh
 
 The original article acknowledges Prof. A. Ouacha for academic supervision.
+
+## Academic artefacts
+
+- [French academic article (DOCX, contact details redacted)](docs/academic-article-fr.docx). No separate presentation or video was found.
+
+## Testing and limitations
+
+Python 3.11 produced 395 triples from the anonymized ten-row CSV. The corrected comparison produced 90 triples for the fixed Python baseline and 395 for the enriched converter, with 138 relation statements counted by the script. Both cleaned notebooks validate with no saved outputs. This is not an execution of an R2RML mapping or external R2RML engine; historical article figures were not reproduced.
