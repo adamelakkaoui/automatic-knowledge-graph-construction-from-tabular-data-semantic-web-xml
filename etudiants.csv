@@ -1,0 +1,11 @@
+id,nom,age,genre,filiere,universite,ville,email
+1,Student-01,22,M,Informatique,Campus-A,Fes,student01@campus-a.invalid
+2,Student-02,21,F,Mathématiques,Campus-A,Fes,student02@campus-a.invalid
+3,Student-03,23,M,Informatique,Campus-B,Meknes,student03@campus-b.invalid
+4,Student-04,22,F,Physique,Campus-B,Meknes,student04@campus-b.invalid
+5,Student-05,24,M,Informatique,Campus-A,Fes,student05@campus-a.invalid
+6,Student-06,21,F,Biologie,Campus-B,Meknes,student06@campus-b.invalid
+7,Student-07,23,M,Mathématiques,Campus-A,Fes,student07@campus-a.invalid
+8,Student-08,22,F,Informatique,Campus-C,Rabat,student08@campus-c.invalid
+9,Student-09,24,M,Génie Logiciel,Campus-C,Rabat,student09@campus-c.invalid
+10,Student-10,21,F,Biologie,Campus-B,Meknes,student10@campus-b.invalid
