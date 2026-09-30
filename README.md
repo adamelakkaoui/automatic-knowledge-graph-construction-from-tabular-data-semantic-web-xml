@@ -32,10 +32,6 @@ python src/comparison_r2rml.py
 
 Run the commands from the repository root because the academic scripts use relative paths. Generated RDF and text reports are ignored by Git.
 
-## Limitations
-
-The example is synthetic and contains only ten rows. Relation rules and DBpedia city mappings are domain-specific, similarity uses a fixed threshold, and pairwise discovery includes quadratic work. No large-scale or external R2RML-engine evaluation is included.
-
 ## Authors
 
 - Adam El Akkaoui
@@ -45,8 +41,11 @@ The original article acknowledges Prof. A. Ouacha for academic supervision.
 
 ## Academic artefacts
 
-- [French academic article (DOCX, contact details redacted)](docs/academic-article-fr.docx). No separate presentation or video was found.
+- [French academic article (PDF, contact details redacted)](docs/academic-article-fr.pdf)
+- [Editable French academic article (DOCX, contact details redacted)](docs/academic-article-fr.docx)
+
+No separate presentation or video was found.
 
 ## Testing and limitations
 
-Python 3.11 produced 395 triples from the anonymized ten-row CSV. The corrected comparison produced 90 triples for the fixed Python baseline and 395 for the enriched converter, with 138 relation statements counted by the script. Both cleaned notebooks validate with no saved outputs. This is not an execution of an R2RML mapping or external R2RML engine; historical article figures were not reproduced.
+Python 3.11 produced 395 triples from the anonymized ten-row CSV. The corrected comparison produced 90 triples for the fixed Python baseline and 395 for the enriched converter, with 138 relation statements counted by the script. Both cleaned notebooks validate with no saved outputs. This is not an execution of an R2RML mapping or external R2RML engine; historical article figures were not reproduced. The ten-row example is synthetic, rules and DBpedia city mappings are domain-specific, similarity uses a fixed threshold, and pairwise discovery includes quadratic work. No large-scale benchmark was performed.
