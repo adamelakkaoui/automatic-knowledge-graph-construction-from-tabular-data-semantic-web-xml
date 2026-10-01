@@ -7,9 +7,9 @@ Academic project that converts a small tabular dataset into RDF and enriches the
 ## Project contents
 
 - `src/intelligent_lod_converter.py`: CSV loading, RDF construction with RDFLib, relation discovery, static DBpedia city links, and RDF export.
-- `notebooks/comparison_r2rml_original.ipynb`: original comparison notebook from the academic project.
-- `notebooks/`: cleaned copies of the submitted notebooks; cell outputs and machine-specific metadata were removed.
-- `etudiants.csv`: anonymized, synthetic ten-row example. Names and email addresses from the submitted example were replaced.
+- `notebooks/comparison_r2rml_original.ipynb`: comparison notebook used in the academic project.
+- `notebooks/intelligent_lod_converter.ipynb`: notebook for the intelligent conversion approach.
+- `etudiants.csv`: ten-row example dataset used by the project.
 
 The source aligns terms with FOAF, Schema.org, AIISO, Dublin Core, and DBpedia resources. 
 
@@ -28,13 +28,7 @@ python src/intelligent_lod_converter.py
 jupyter lab notebooks/comparison_r2rml_original.ipynb
 ```
 
-Run the commands from the repository root because the academic scripts use relative paths. On a Windows console using a legacy code page, enable UTF-8 before running the scripts because their educational output contains Unicode symbols:
-
-```powershell
-$env:PYTHONUTF8 = "1"
-```
-
-Generated RDF and text reports are ignored by Git.
+Run the commands from the repository root because the project scripts use relative paths.
 
 ## Authors
 
@@ -45,8 +39,8 @@ The original article acknowledges Prof. A. Ouacha for academic supervision.
 
 ## Academic artefacts
 
-- [French academic article (PDF, contact details redacted)](docs/academic-article-fr.pdf)
-- [Editable French academic article (DOCX, contact details redacted)](docs/academic-article-fr.docx)
+- [French academic article (PDF)](docs/academic-article-fr.pdf)
+- [Editable French academic article (DOCX)](docs/academic-article-fr.docx)
 
 
 ## Results
