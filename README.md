@@ -7,7 +7,7 @@ Academic project that converts a small tabular dataset into RDF and enriches the
 ## Project contents
 
 - `src/intelligent_lod_converter.py`: CSV loading, RDF construction with RDFLib, relation discovery, static DBpedia city links, and RDF export.
-- `src/comparison_r2rml.py`: fixed-mapping baseline and a comparison report.
+- `notebooks/comparison_r2rml_original.ipynb`: original comparison notebook from the academic project.
 - `notebooks/`: cleaned copies of the submitted notebooks; cell outputs and machine-specific metadata were removed.
 - `etudiants.csv`: anonymized, synthetic ten-row example. Names and email addresses from the submitted example were replaced.
 
@@ -25,7 +25,7 @@ python -m venv .venv
 # Linux/macOS: source .venv/bin/activate
 python -m pip install -r requirements.txt
 python src/intelligent_lod_converter.py
-python src/comparison_r2rml.py
+jupyter lab notebooks/comparison_r2rml_original.ipynb
 ```
 
 Run the commands from the repository root because the academic scripts use relative paths. On a Windows console using a legacy code page, enable UTF-8 before running the scripts because their educational output contains Unicode symbols:
