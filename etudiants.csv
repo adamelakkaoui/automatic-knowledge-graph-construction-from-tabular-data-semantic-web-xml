@@ -1,11 +1,11 @@
 id,nom,age,genre,filiere,universite,ville,email
-1,Student-01,22,M,Informatique,Campus-A,Fes,student01@campus-a.invalid
-2,Student-02,21,F,Mathématiques,Campus-A,Fes,student02@campus-a.invalid
-3,Student-03,23,M,Informatique,Campus-B,Meknes,student03@campus-b.invalid
-4,Student-04,22,F,Physique,Campus-B,Meknes,student04@campus-b.invalid
-5,Student-05,24,M,Informatique,Campus-A,Fes,student05@campus-a.invalid
-6,Student-06,21,F,Biologie,Campus-B,Meknes,student06@campus-b.invalid
-7,Student-07,23,M,Mathématiques,Campus-A,Fes,student07@campus-a.invalid
-8,Student-08,22,F,Informatique,Campus-C,Rabat,student08@campus-c.invalid
-9,Student-09,24,M,Génie Logiciel,Campus-C,Rabat,student09@campus-c.invalid
-10,Student-10,21,F,Biologie,Campus-B,Meknes,student10@campus-b.invalid
+1,Ali Benyoussef,22,M,Informatique,ENSA,Fes,ali.benyoussef@ensa.ma
+2,Sara El Amrani,21,F,Mathématiques,ENSA,Fes,sara.elamrani@ensa.ma
+3,Youssef Kabbaj,23,M,Informatique,FST,Meknes,y.kabbaj@fst.ma
+4,Amina Zahraoui,22,F,Physique,FST,Meknes,amina.zahraoui@fst.ma
+5,Omar Chafik,24,M,Informatique,ENSA,Fes,omar.chafik@ensa.ma
+6,Hind Lahlou,21,F,Biologie,FST,Meknes,hind.lahlou@fst.ma
+7,Karim Bouzidi,23,M,Mathématiques,ENSA,Fes,karim.bouzidi@ensa.ma
+8,Nadia Rami,22,F,Informatique,EST,Rabat,nadia.rami@est.ma
+9,Anas Toumi,24,M,Génie Logiciel,EST,Rabat,anas.toumi@est.ma
+10,Salma Ait Ali,21,F,Biologie,FST,Meknes,salma.aitali@fst.ma
