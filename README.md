@@ -37,7 +37,6 @@ The original article acknowledges Prof. A. Ouacha for academic supervision.
 
 ## Academic artefacts
 
-- [French academic article (PDF)](docs/academic-article-fr.pdf)
 - [Editable French academic article (DOCX)](docs/academic-article-fr.docx)
 
 ## Results
