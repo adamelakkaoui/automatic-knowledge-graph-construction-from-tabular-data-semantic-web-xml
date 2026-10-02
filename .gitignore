@@ -1,7 +1,0 @@
-.venv/
-__pycache__/
-*.py[cod]
-.ipynb_checkpoints/
-knowledge_graph_intelligent.*
-rapport_conversion.txt
-rapport_comparaison_r2rml.txt
