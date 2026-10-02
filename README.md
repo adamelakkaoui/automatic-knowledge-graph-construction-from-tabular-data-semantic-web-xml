@@ -1,7 +1,5 @@
 # Automatic Knowledge-Graph Construction from Tabular Data (Semantic Web & XML)
 
-![SEMANTIC WEB — Tabular data, RDF and knowledge graphs](assets/portfolio-banner.svg)
-
 Academic project that converts a small tabular dataset into RDF and enriches the resulting graph with rule-based relations, TF-IDF/cosine-similarity links, inferred memberships, and ontology mappings.
 
 ## Project contents
@@ -41,7 +39,6 @@ The original article acknowledges Prof. A. Ouacha for academic supervision.
 
 - [French academic article (PDF)](docs/academic-article-fr.pdf)
 - [Editable French academic article (DOCX)](docs/academic-article-fr.docx)
-
 
 ## Results
 
